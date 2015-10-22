@@ -1,7 +1,7 @@
 const sync_request = require('sync-request');
 const Module = require("module");
 
-const basedir = "/hook"; // provide as config and don't be so hacky
+const basedir = "/hookhttp"; // provide as config and don't be so hacky
 
 const old_load = Module._load;
 // based on https://github.com/nodejs/node/blob/master/lib/module.js 6ad458b
